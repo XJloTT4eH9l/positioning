@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Позиціювання 2.5</title>
+	<meta charset="utf-8">
+	<style>
+		html,body{
+			height: 100%;
+		}
+		p{
+			margin: 0;
+		}
+		body{
+			margin: 0;
+		}
+
+		span{
+			padding-left: 10px;
+			display: inline-block;
+
+			width: 100px;
+			height: 150px;
+
+			font-size: 40px;
+			font-weight: bold;
+
+			border-left: dotted;
+			border-width: 10px;
+			border-color: #D0D0FF;
+
+			background-color: #eeeff2;
+			transition: 0.3s;
+
+			
+		}
+		span:hover {
+			color: goldenrod;
+			background-color: yellow;
+			cursor: pointer;
+		}
+		.boxes{
+			position: relative;
+			width: 100%;
+			height: 100%
+		}
+		.A{
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+		}
+		.B{
+			position: absolute;
+			top: 0;
+			left: 130px;
+		}
+		.C{
+			position: absolute;
+			top: 0;
+			left: 260px;
+		}
+		.D{
+			position: absolute;
+			top: 0;
+			left: 390px;
+		}
+		.E{
+			position: absolute;
+			top: 0;
+			left: 520px;
+		}
+		.F{
+			position: absolute;
+			right: 0;
+			bottom: 0;
+
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="boxes">
+		<span class="A">A</span>
+		<span class="B">B</span>
+		<span class="C">C</span>
+		<span class="D">D</span>
+		<span class="E">E</span>
+		<span class="F">F</span>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>parallax</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<section class="top">
+  <p>
+~ Scroll down ~
+  </p>
+</section>
+
+<section class="parallax">
+  <p>Some cool overlay text...</p>
+</section>
+
+<section class="bottom">
+  <p>
+~ Scroll up ~
+  </p>
+</section>
+</body>
+</html>
+

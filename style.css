@@ -1,0 +1,78 @@
+/* загальний стиль для всього <body> */
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+
+/* header */
+header{
+	height: 400px;
+	background-color: lightskyblue;
+}
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 75px;
+	background-color: royalblue;
+}
+
+/* main section */
+
+.main__section{
+	height: 675px;
+	background-color: gray;
+	margin: 75px 100px;
+}
+.yellow_p{
+	height: 200px;
+	background-color: khaki;
+	margin-bottom: 75px;
+}
+.orange_boxes{
+	display: flex;
+	justify-content: space-between;
+}
+.orange__box1{
+	background-color: tomato;
+	height: 400px;
+	width: 48%;
+}
+.orange__box2{
+	background-color: tomato;
+	height: 400px;
+	width: 48%;
+}
+/* prefooter */
+.prefooter__section{
+	height: 40px;
+	background-color: silver;
+}
+/* footer */
+footer{
+	height: 100px;
+	background-color: black;
+}
